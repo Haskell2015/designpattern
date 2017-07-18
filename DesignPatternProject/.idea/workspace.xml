@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b1d79d-d4ef-4e89-adcb-e1894a0a8b5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/TestMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/TestMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/Builder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/ClientMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/Director.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/Floor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/Room.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/RoomBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/Window.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatternProject/com/pattern/factorypattern/TestMain.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatternProject/com/pattern/factorypattern/factory/BMWCar.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatternProject/com/pattern/factorypattern/factory/BMWCarFactory.class" afterPath="" />
@@ -23,7 +12,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatternProject/com/pattern/factorypattern/factory/DongFengCarFactory.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatternProject/com/pattern/factorypattern/factory/ICar.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatternProject/com/pattern/factorypattern/factory/TestMain.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -101,7 +89,7 @@
       <file leaf-file-name="RoomBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/RoomBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="420">
               <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#227#228#0" expanded="true" />
@@ -865,15 +853,23 @@
       <workItem from="1500026376572" duration="363000" />
       <workItem from="1500278050242" duration="6871000" />
       <workItem from="1500286512683" duration="360000" />
-      <workItem from="1500348854179" duration="2958000" />
+      <workItem from="1500348854179" duration="3162000" />
     </task>
+    <task id="LOCAL-00001" summary="[需求]add Builder Pattern Demo">
+      <created>1500355726276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500355726276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11750000" />
+    <option name="totallyTimeSpent" value="11954000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -884,13 +880,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26074973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26074973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -938,6 +934,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[需求]add Builder Pattern Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="[需求]add Builder Pattern Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1538,7 +1538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pattern/builderpattern/nativebuilder/RoomBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="420">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#227#228#0" expanded="true" />
