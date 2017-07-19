@@ -11,4 +11,5 @@ public class Person extends Prototype {
     public int age = 25;
     public int[]array={1,2,3};
     public Entity entity=new Entity();
+    public DeepEntity deepEntity=new DeepEntity();
 }

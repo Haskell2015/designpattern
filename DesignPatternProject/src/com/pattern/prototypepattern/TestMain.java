@@ -13,7 +13,8 @@ public class TestMain {
         System.out.println(person.age == person2.age);
         System.out.println(person.name.equals(person2.name));
         System.out.println(person.array.equals(person2.array));// true
-        System.out.println(person.entity.equals(person2.entity));
+        System.out.println(person.entity.equals(person2.entity));// true
+        System.out.println(person.deepEntity.equals(person2.deepEntity));//false
 
         System.out.println("深拷贝");
         User user = new User();
@@ -22,6 +23,7 @@ public class TestMain {
         System.out.println(user.age == user2.age);
         System.out.println(user.name.equals(user2.name));
         System.out.println(user.array.equals(user2.array));// false
-        System.out.println(user.entity.equals(user2.entity));
+        System.out.println(user.entity.equals(user2.entity));// false
+        System.out.println(user.deepEntity.equals(user2.deepEntity));//false
     }
 }
