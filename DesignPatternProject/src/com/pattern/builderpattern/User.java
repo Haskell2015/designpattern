@@ -1,7 +1,5 @@
 package com.pattern.builderpattern;
 
-import sun.awt.image.BufferedImageDevice;
-
 /**
  * Created by Administrator on 2017/7/18.
  */

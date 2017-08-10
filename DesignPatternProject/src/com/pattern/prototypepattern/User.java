@@ -21,9 +21,7 @@ public class User implements Cloneable {
         user.entity = (Entity) entity.clone();// 深拷贝
         try {
             user.deepEntity= (DeepEntity) deepEntity.deepClone();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
         return user;

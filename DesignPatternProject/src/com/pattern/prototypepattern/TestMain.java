@@ -29,5 +29,13 @@ public class TestMain {
         System.out.println(user.entity.equals(user2.entity));// false
         System.out.println(user.deepEntity.equals(user2.deepEntity));// false
         System.out.println(user.deepEntity.id == user2.deepEntity.id);// 100==0 false
+
+
+
+
+        int[] is={1,2,3};
+        int[]is1=is.clone();
+        is[0]=8;
+        System.out.println(is1[0]);
     }
 }
