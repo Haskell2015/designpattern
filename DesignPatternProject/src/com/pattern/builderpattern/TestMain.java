@@ -5,7 +5,9 @@ package com.pattern.builderpattern;
  */
 public class TestMain {
     public static void main(String[] args) {
-        User user = new User.UserBuilder("Zhang", "小二").setAge(26).setPhone("10086").setAddress("XM").build();
-        System.out.println(user);
+//        User user = new User.UserBuilder("Zhang", "小二").setAge(26).setPhone("10086").setAddress("XM").build();
+//        System.out.println(user);
+        String  s="1234567";
+        System.out.println(s.substring(4, s.length()));
     }
 }
